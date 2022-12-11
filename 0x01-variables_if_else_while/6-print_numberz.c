@@ -10,7 +10,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		putcher(10 +c c);
+		putchar(10 + c);
 		c++;
 	}
 	putchar('\n');
