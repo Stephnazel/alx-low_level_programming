@@ -35,8 +35,8 @@ int main(void)
 		aft1 = aft1 + bef1;
 		bef1 = bef1 + aft1;
 		aft2 = aft2 + bef2;
-		bef2 + bef2 + aft2;
+		bef2 = bef2 + aft2;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
