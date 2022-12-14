@@ -2,16 +2,19 @@
 
 /**
  * _abs - completes the absolute value of an integer
- * @t - The integer to be computed
+ *
+ * @i: inputes number as integer
+ *
  * Return: the absolute value
  */
-
-int _abs(int t)
+int _abs(int i)
 {
-
-	if (t >= 0)
-		return (t);
+	if (i >= 0)
+	{
+		return (i);
+	}
 	else
-		return (-t);
-
+	{
+		return (i * -1);
+	}
 }
